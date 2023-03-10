@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Card Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+
+    <script src="game.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card" id="card-id">
+            <button type="button" class="card__button btn-next" id="card-next">&#8702;</button>
+            <button type="button" class="card__button btn-prev" id="card-next">&#8701;</button>
+            <div class="card__title">
+                <h1 id="card-title">Dragon</h1>
+            </div>
+            <div class="card__image">
+                <img src="images/dragon.svg" alt="" id="card-img">
+            </div>
+            <div class="card__description">
+                <p id="card-description">Powerful and fearsome, with a devastating breath weapon and tough scales.</p>
+                <p id="card-attack">Attack: 100</p>
+                <p id="card-defense">Defense: 98</p>
+            </div>
+            <div class="card__lifePoints">
+                <p id="card-life-points">life points: <span>5000</span></p>
+            </div>
+        </div>
+
+
+        <!--battle area-->
+        <div class="battle--area">
+            <button type="button">Battle</button>
+        </div>
+
+        <!--card bot-->
+        <div class="card">
+            <button type="button" class="card__button btn-next" id="cardNext">&#8702;</button>
+            <button type="button" class="card__button btn-prev" id="cardPrev">&#8701;</button>
+            <div class="card__title">
+                <h1 id="card-title">Dragon</h1>
+            </div>
+            <div class="card__image">
+                <img src="images/dragon.svg" alt="" id="card-img">
+            </div>
+            <div class="card__description">
+                <p id="card-description">Powerful and fearsome, with a devastating breath weapon and tough scales.</p>
+                <p id="card-attack">Attack: 100</p>
+                <p id="card-defense">Defense: 98</p>
+            </div>
+            <div class="card__lifePoints">
+                <p id="card-life-points">life points: <span>5000</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
